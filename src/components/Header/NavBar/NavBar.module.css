@@ -1,0 +1,36 @@
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    width: 60%;
+}
+
+.header_link {
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 21px 10px;
+    border: none;
+    background-color: #ffff;
+}
+
+.header_link:hover {
+    background-color: #f1f1f1;
+}
+
+.navBar li {
+    list-style: none;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.navBar li:hover {
+    border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.header_link_block {
+
+}
