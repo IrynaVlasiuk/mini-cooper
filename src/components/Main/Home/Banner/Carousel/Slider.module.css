@@ -1,0 +1,63 @@
+.slideImage {
+    object-fit: contain;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.mask {
+    background: linear-gradient(180deg,black,rgb(0 0 0 / 78%) 24%,rgb(0 0 0 / 47%));
+}
+
+.textBlock {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #ffff;
+    text-align: left;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0px auto;
+    /*animation: fadeIn 3s;*/
+    /*-webkit-animation: fadeIn 3s;*/
+    /*-moz-animation: fadeIn 1s;*/
+    /*-o-animation: fadeIn 1s;*/
+    /*-ms-animation: fadeIn 1s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-delay: 1s;*/
+}
+
+.title {
+    font-size: 85px;
+    margin: 0px;
+    line-height: 90px;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 100;
+}
+
+/*.slider .slideImage {*/
+/*    animation: scale 2s infinite;*/
+/*}*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}

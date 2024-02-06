@@ -6,7 +6,7 @@ const Logo = (props) => {
     return (
         <NavLink to='/'>
             <div className={style.logo}>
-                <img src={logo} alt="mini_logo"/>
+                <img src={logo} alt='mini_cooper_logo'/>
             </div>
         </NavLink>
     );

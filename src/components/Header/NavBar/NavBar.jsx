@@ -17,7 +17,7 @@ const NavBar = (props) =>  {
 
     return (
         <>
-        <nav className={style.navBar}>
+        <nav className={`${props.isHome ? style.navBarWhite : style.navBarBlack}`}>
             <div className={style.header_link_block}>
                 <button className={style.header_link} onClick={() => setModal(true)}>Моделі</button>
             </div>
@@ -39,9 +39,11 @@ const NavBar = (props) =>  {
             <div className={style.header_link_block}>
                 <button className={style.header_link}>Прайс-лист</button>
             </div>
-            <div className={style.header_link_block}>
-                <button className={style.header_link}>Контакти</button>
-            </div>
+            <NavLink to='/contacts'>
+                <div className={style.header_link_block}>
+                    <button className={style.header_link}>Контакти</button>
+                </div>
+            </NavLink>
             <NavLink to='/reviews'>
                 <div className={style.header_link_block}>
                     <button className={style.header_link}>Відгуки</button>
@@ -54,7 +56,6 @@ const NavBar = (props) =>  {
             {/*<NavLink to='/blog'>Світ Mini</NavLink>*/}
             {/*<NavLink to='/contact'>Фінансування</NavLink>*/}
             {/*<NavLink to='/contact'>Прайс-лист</NavLink>*/}
-            {/*<NavLink to='/contact'>Контакти</NavLink>*/}
         </nav>
             <Modal
                 isVisible={isModal}

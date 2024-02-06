@@ -6,6 +6,8 @@ import reduxStore from './redux/store';
 import store from './data/store';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
+import './fonts/Mini/Mini.ttf';
+import './fontawesome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

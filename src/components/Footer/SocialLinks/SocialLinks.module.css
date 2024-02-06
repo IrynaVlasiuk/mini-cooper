@@ -1,0 +1,14 @@
+.socialList {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}

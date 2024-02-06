@@ -1,0 +1,38 @@
+.arrows {
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+.arrows .arrow:hover {
+     cursor: pointer;
+}
+
+.arrowLeft {
+     /*//background-image: url(../../../assets/icons/arrow.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 5px;
+    transform: rotate(180deg);
+    height: 30px;
+    width: 30px;
+}
+
+.arrowRight {
+    /*// background-image: url(../../../assets/icons/arrow.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.arrowLeft:hover, .arrowRight:hover {
+    cursor: pointer;
+}

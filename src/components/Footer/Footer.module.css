@@ -1,3 +1,11 @@
 .footer {
-
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #000;
+    flex-wrap: wrap;
+    padding: 5px 5px 25px 5px;
+    box-sizing: border-box;
 }
+
+

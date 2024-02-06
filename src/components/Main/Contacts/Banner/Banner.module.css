@@ -1,0 +1,13 @@
+.banner img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.border {
+    height: 10px;
+    width: 100%;
+    background: #317257;
+}

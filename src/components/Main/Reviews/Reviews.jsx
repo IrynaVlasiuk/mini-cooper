@@ -7,11 +7,11 @@ import store from "../../../data/store";
 
 const Reviews = (props) =>  {
     return (
-        <div className={style.reviews}>
+        <section className={style.reviews}>
             <Title title={store.reviews.title}/>
             <ReviewAdd addReview={props.addReview} update={props.updateNewReview} newReviewText={props.newReviewText}/>
             <ReviewsList reviews={props.reviews}/>
-        </div>
+        </section>
     );
 }
 

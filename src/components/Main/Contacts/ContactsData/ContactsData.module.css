@@ -1,0 +1,35 @@
+.contactsData {
+    width: 70%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.contacts_info {
+
+}
+
+.contact_line {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_line span {
+    font-family: sans-serif;
+}
+
+.contact_line span:first-child {
+    width: 40%;
+}
+
+.contact_line span:last-child {
+    width: 60%;
+}
+
+.bold {
+    font-weight: bold;
+}

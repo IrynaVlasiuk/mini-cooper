@@ -1,18 +1,30 @@
-.navBar {
+.navBarBlack, .navBarWhite {
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
     width: 60%;
 }
 
-.header_link {
+.navBarBlack .header_link {
     color: #111;
+    background: none;
+}
+
+.navBarWhite .header_link {
+    color: #fff;
+    background: none;
+}
+
+.navBarWhite .header_link:hover {
+    color: #000;
+}
+
+.header_link {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     padding: 21px 10px;
     border: none;
-    background-color: #ffff;
 }
 
 .header_link:hover {

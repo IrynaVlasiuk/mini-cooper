@@ -2,6 +2,8 @@
   text-align: center;
   position: relative;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -38,3 +40,34 @@
     transform: rotate(360deg);
   }
 }
+
+.App .slider {
+  height: 600px;
+}
+
+.App .slider a.previousButton, .App .slider a.nextButton{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.5);
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App .slider svg {
+  height: 20px;
+}
+
+.App .slider polygon {
+  fill: #9e9e9eed;
+}
+
+section {
+  margin-top: 58px;
+}
+
